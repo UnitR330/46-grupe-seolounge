@@ -1,10 +1,9 @@
+import { Listing } from "../sections/Listing";
 
-import { Register } from "../sections/Register";
-
-export function RegisterPage() {
+export function ListingPage() {
     return (
         <>
-            <Register />
+            <Listing />
         </>
     );
 }
@@ -12,14 +11,14 @@ export function RegisterPage() {
 /*
 import { Footer } from "../sections/Footer";
 import { Header } from "../sections/Header";
-import { Register } from "../sections/Register";
+import { Listing } from "../sections/Listing";
 
-export function RegisterPage() {
+export function ListingPage() {
     return (
         <>
             <Header />
             <main>
-                <Register />
+                <Listing />
             </main>
             <Footer />
         </>
